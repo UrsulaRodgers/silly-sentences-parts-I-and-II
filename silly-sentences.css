@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=Cutive+mono');
+body {
+	text-align: center;
+}
+
+.body {
+	background-color:#E7EAEE;
+}
+.container-fluid {
+	background-color:#E7EAEE;
+}
+.centerContainer {
+  border-radius:5px;
+  position:relative;
+  margin:8% auto 8% auto;
+  width:800px;
+  padding:100px 70px;
+  background-color:#fff;
+}
+
+#centerContainer {
+  border-radius:5px;
+  position:relative;
+  margin:8% auto 15% auto;
+  width:800px;
+  padding:100px 70px;
+  background-color:#fff;
+}
+
+#heading, #headingPart2 {
+	color: red;
+	font-family:'Cutive Mono', monospace;
+}
+
+#headingPart2, #descriptionPart2 {
+	position:relative;
+	top:-80px;
+}
+
+#description, #descriptionPart2 {
+	font-size:1.3em;
+}
+
+#descriptionPart2 {
+	color:blue;
+}
+
+#inputs {
+	position:relative;
+	top:-50px;
+}
+input {
+	width:350px;
+	height:30px;
+	border:1px solid #00ff00;
+	border-radius:10px;
+	opacity:0.7;
+}
+
+label {
+	margin:10px;
+}
+#random, #go {
+	background-color: purple;
+	border-radius: 8px;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	outline: none;
+	position: relative;
+	top: 20px;
+}
+
+#repeat {
+	background-color: blue;
+	border-radius: 8px;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	outline: none;
+}
+#repeat {
+	position: relative;
+	top: 20px;
+}
+
+#again {
+	position:relative;
+	top:130px;
+}
+
+#result, #resultPart2 {
+	font-size: 1.5em;
+	font-weight: bold;
+	font-family:'Cutive Mono', monospace;
+}
+
+#resultPart2 {
+	position:relative;
+	top:-50px;
+}
+
+#doItAgain {
+	position:relative;
+	top:-30px;
+}
+#reset {
+	font-weight:bold;
+	position: relative;
+	top: 50px;
+	cursor:pointer;
+}
+
+#reset:hover{
+	color:red;
+}
+
+@media only screen and (max-width: 768px) {
+	.centerContainer {
+  		border-radius:5px;
+  		position:relative;
+  		margin:8% auto auto auto;
+  		width:600px;
+  		padding:100px 70px;
+  		background-color:#fff;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.centerContainer {
+  		border-radius:5px;
+  		position:relative;
+  		margin:8% auto auto auto;
+  		width:500px;
+  		padding:100px 70px;
+  		background-color:#fff;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.centerContainer {
+  		border-radius:5px;
+  		position:relative;
+  		margin:8% auto auto auto;
+  		width:400px;
+  		padding:100px 70px;
+  		background-color:#fff;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.centerContainer {
+  		border-radius:5px;
+  		position:relative;
+  		margin:8% auto auto auto;
+  		width:300px;
+  		padding:100px 70px;
+  		background-color:#fff;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.centerContainer {
+  		border-radius:5px;
+  		position:relative;
+  		margin:8% auto auto auto;
+  		width:300px;
+  		padding:100px 50px 100px 50px;
+  		background-color:#fff;
+	}
+}
