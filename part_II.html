@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="sillysentence_jquery.css">
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+<script src="sillysentence_jquery.js"></script>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="centerContainer" id="centerContainer">
+					<h1 id="headingPart2">Silly Sentence Generator, Part II</h1>
+					<h2 id="descriptionPart2">Similar to the original silly sentence generator, 
+					but this time, you choose the words.</h2>
+					<form id="inputs">
+						<label for="place">
+						<input id="place" type="text" placeholder="Enter a place">
+						</label>
+						<label for="animal">
+						<input id="animal" type="text" placeholder="Enter a type of animal">
+						</label>
+						<label for="action">
+						<input id="action" type="text" placeholder="Enter an action (e.g. dance with, jump on, smell)">
+						</label>
+						<label for="object">
+						<input id="object" type="text" placeholder="Enter an object (in plural, e.g. baskets, books etc.">
+						</label>
+					</form>
+					<button id="go">GO!</button>
+					<div id="resultPart2"></div>
+					<button id="resetPart2"></button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
