@@ -1,28 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Cutive+mono');
 /*Sillysentence CSS*/
 .body {
-  background-color:#E7EAEE;
+ 	background-color:#E7EAEE;
 }
 #container {
-  background-color:#E7EAEE;
-  text-align: center;
+  	background-color:#E7EAEE;
+  	text-align: center;
 }
 .centerContainer {
-  border-radius:5px;
-  position:relative;
-  margin:8% auto 8% auto;
-  width:800px;
-  padding:100px 70px;
-  background-color:#fff;
+  	border-radius:5px;
+  	margin:8% auto 8% auto;
+  	width:800px;
+  	padding:100px 70px;
+  	background-color:#fff;
 }
 
 #centerContainer2 {
-  border-radius:5px;
-  position:relative;
-  margin:8% auto 15% auto;
-  width:800px;
-  padding:100px 70px;
-  background-color:#fff;
+  	border-radius:5px;
+  	margin:8% auto 15% auto;
+  	width:800px;
+  	padding:100px 70px;
+  	background-color:#fff;
 }
 
 #heading, #headingPart2 {
@@ -123,7 +121,6 @@ label {
 @media only screen and (max-width: 768px) {
 	.centerContainer {
   		border-radius:5px;
-  		position:relative;
   		margin:8% auto auto auto;
   		width:600px;
   		padding:100px 70px;
@@ -134,7 +131,6 @@ label {
 @media only screen and (max-width: 600px) {
 	.centerContainer {
   		border-radius:5px;
-  		position:relative;
   		margin:12% auto auto auto;
   		width:500px;
   		padding:100px 70px;
@@ -145,7 +141,6 @@ label {
 @media only screen and (max-width: 500px) {
 	.centerContainer {
   		border-radius:5px;
-  		position:relative;
   		margin:12% auto auto auto;
   		width:400px;
   		padding:100px 70px;
@@ -155,43 +150,40 @@ label {
 
 @media only screen and (max-width:400px){
 	.centerContainer {
-  	position:relative;
-  	top:60px;
-  	margin:0 auto;
-  	left:8%;
-    
-    -moz-transform: scale(0.6);
-    -ms-transform: scale(0.6);
-    -o-transform: scale(0.6);
-    -webkit-transform: scale(0.6);
-    transform: scale(0.6);
-    
-    -o-transform-origin: 0 0;
-    -ms-transform-origin: 0 0;
-    -webkit-transform-origin: 0 0;
-    -moz-transform-origin: 0 0;
-    transform-origin: 0 0;
-  }
-  #centerContainer2 {
-  	width:400px;
-  	position:relative;
-  	top:40px;
-  	margin:8% auto;
-    
-    -moz-transform: scale(0.6);
-    -ms-transform: scale(0.6);
-    -o-transform: scale(0.6);
-    -webkit-transform: scale(0.6);
-    transform: scale(0.6);
-    
-    -o-transform-origin: 0 0;
-    -ms-transform-origin: 0 0;
-    -webkit-transform-origin: 0 0;
-    -moz-transform-origin: 0 0;
-    transform-origin: 0 0;
-  }
-  form {
-  	position:relative;
-  	right:50px;
-  }
+  		position:relative;
+  		top:60px;
+  		margin:0 auto;
+  		left:8%;
+    		-moz-transform: scale(0.6);
+    		-ms-transform: scale(0.6);
+    		-o-transform: scale(0.6);
+    		-webkit-transform: scale(0.6);
+    		transform: scale(0.6);
+    		-o-transform-origin: 0 0;
+    		-ms-transform-origin: 0 0;
+    		-webkit-transform-origin: 0 0;
+    		-moz-transform-origin: 0 0;
+    		transform-origin: 0 0;
+  	}
+	
+  	#centerContainer2 {
+  		width:400px;
+  		position:relative;
+  		top:40px;
+  		margin:8% auto;
+    		-moz-transform: scale(0.6);
+    		-ms-transform: scale(0.6);
+    		-o-transform: scale(0.6);
+    		-webkit-transform: scale(0.6);
+    		transform: scale(0.6);
+    		-o-transform-origin: 0 0;
+    		-ms-transform-origin: 0 0;
+    		-webkit-transform-origin: 0 0;
+   		-moz-transform-origin: 0 0;
+    		transform-origin: 0 0;
+  	}
+  	form {
+  		position:relative;
+  		right:50px;
+  	}
 }
