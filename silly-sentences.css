@@ -1,13 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Cutive+mono');
-body {
-	text-align: center;
-}
+/*navigation*/
+.navbar-default {
+	background-color:#D8D8D8;
+	border:none;
+	font-family: 'Roboto', sans-serif;
+	}
 
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: #D7E5F9;
+	}
+
+.header {
+	padding-right: 15px;
+	padding-left: 15px;
+	}
+/*Sillysentence CSS*/
 .body {
 	background-color:#E7EAEE;
 }
-.container-fluid {
+#container {
 	background-color:#E7EAEE;
+	text-align: center;
 }
 .centerContainer {
   border-radius:5px;
@@ -72,7 +85,7 @@ label {
 	font-size: 16px;
 	outline: none;
 	position: relative;
-	top: 20px;
+	top: 25px;
 }
 
 #repeat {
@@ -137,7 +150,7 @@ label {
 	.centerContainer {
   		border-radius:5px;
   		position:relative;
-  		margin:8% auto auto auto;
+  		margin:12% auto auto auto;
   		width:500px;
   		padding:100px 70px;
   		background-color:#fff;
@@ -148,7 +161,7 @@ label {
 	.centerContainer {
   		border-radius:5px;
   		position:relative;
-  		margin:8% auto auto auto;
+  		margin:12% auto auto auto;
   		width:400px;
   		padding:100px 70px;
   		background-color:#fff;
@@ -158,9 +171,9 @@ label {
 @media only screen and (max-width:400px){
 	.centerContainer {
   	position:relative;
-  	top:40px;
+  	top:60px;
   	margin:0 auto;
-  	left:10px;
+  	left:8%;
     
     -moz-transform: scale(0.6);
     -ms-transform: scale(0.6);
