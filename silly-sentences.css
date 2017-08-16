@@ -1,26 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Cutive+mono');
-/*navigation*/
-.navbar-default {
-	background-color:#D8D8D8;
-	border:none;
-	font-family: 'Roboto', sans-serif;
-	}
-
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    background-color: #D7E5F9;
-	}
-
-.header {
-	padding-right: 15px;
-	padding-left: 15px;
-	}
 /*Sillysentence CSS*/
 .body {
-	background-color:#E7EAEE;
+  background-color:#E7EAEE;
 }
 #container {
-	background-color:#E7EAEE;
-	text-align: center;
+  background-color:#E7EAEE;
+  text-align: center;
 }
 .centerContainer {
   border-radius:5px;
